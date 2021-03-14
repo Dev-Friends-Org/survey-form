@@ -20,11 +20,28 @@ html {
 BODY & CONTAINER
 ******************************/
 
+/* background img */
+body {
+    background-image: linear-gradient( 
+        rgba(53, 72, 182, 0.52), 
+        rgba(147, 137, 238, 0.73)),
+        url('img/light.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+ 
+/* center content */
 .container {
     margin: 0 auto;
     width: 60%;
     border: solid chocolate 1px;
 }
+
+
+
 
 
 
