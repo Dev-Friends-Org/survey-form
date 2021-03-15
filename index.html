@@ -11,19 +11,37 @@
     <div class="container">
         <!-- HEADER -->
         <header>
-            <h1 id="title">UX Friday Survey Form</h1>
-            <p id="description">Thank you for taking the time to help us improve our events</p>
+            <h1 id="title">UX Friday Survey</h1>
+            <p id="description">Your opinion will help us improve future events. Thanks!</p>
         </header>
 
         <!-- FORM ELEMENTS -->
         <form id="survey-form">
             <!-- email -->
-            <label for="email">Email</label>
-            <input type="text" id="email" placeholder="Enter your email" name="email" required />
-            <input type="submit">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    class="input-text"
+                    placeholder="Enter your email..."
+                    required
+                />
+            </div>
             
             <!-- name -->
-            
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="input-text"
+                    placeholder="Enter your name..."
+                    required
+                />
+            </div>
             
 
             <!-- age -->
